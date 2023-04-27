@@ -1,0 +1,2 @@
+insert into user values('ff80808187b5d6ca0187b5d6f4bf0000','ajay','kandavalli','pass1','pasivedala','ajaydinakar')
+insert into user values('ff80808187b5d6ca0187b5d6f4bf0002','siva','undavalli','pass2','pasivedala','unsrk')
