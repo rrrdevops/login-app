@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Login App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all"
+          href="../../../css/gtvg.css" th:href="@{/css/gtvg.css}" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+<h1></h1>
+<div class="container">
+    <h1>Login Page</h1>
+
+    <form action="#" th:action="@{/save}">
+<!--       <form action="#" th:action="@{/save}" th:object="${}" method="post">-->
+        <div class="form-group">
+            <label for="vendor">User Name</label>
+            <input type="text" class="form-control" id="vendor"  placeholder="Enter Vendor name">
+        </div>
+
+        <div class="form-group">
+            <label for="comp">Password </label>
+            <input type="text" class="form-control" id="comp"  placeholder="Enter Vendor Company name">
+        </div>
+
+        <button type="submit" class="btn btn-primary"  th:value="Save">Submit</button>
+
+    </form>
+
+
+
+
+</div>
+</body>
+
+</html>
